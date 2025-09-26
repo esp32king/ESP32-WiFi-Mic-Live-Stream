@@ -22,11 +22,12 @@ Stream audio from a **Waveshare Sound Sensor** connected to an ESP32 over WiFi u
 ## 🔌 Wiring Diagram
 
 Waveshare Sound Sensor ESP32
+<img src="https://raw.githubusercontent.com/esp32king/ESP32-WiFi-Mic-Live-Stream/refs/heads/main/ESP32-Diagram.jpg"></img>
 
 <br>``VCC 3.3V``</br>
 ``GND GND``
 <br>``A0 (Analog Out) GPIO 33``</br>
-<img src="https://raw.githubusercontent.com/esp32king/ESP32-WiFi-Mic-Live-Stream/refs/heads/main/ESP32-Diagram.jpg"></img>
+
 vbnet
 Copy code
 
