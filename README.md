@@ -12,12 +12,12 @@ Stream audio from a Waveshare Sound Sensor connected to an ESP32 over WiFi using
 
 ## 🛠️ Components Required
 
-``<br>| Component | Description |</br>
+<br>| Component | Description |</br>
 |-----------|-------------|
 <br>| ESP32 Dev Board | Main microcontroller |</br>
 | Waveshare Sound Sensor | Audio input (analog) |
 <br>| Jumper wires | For connections |</br>
-| USB Cable | For programming ESP32 |``
+| USB Cable | For programming ESP32 |
 
 ## 🔌 Wiring Diagram
 
