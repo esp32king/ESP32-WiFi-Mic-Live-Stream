@@ -12,12 +12,12 @@ Stream audio from a **Waveshare Sound Sensor** connected to an ESP32 over WiFi u
 
 ## 🛠️ Components Required
 
-<br>| Component | Description |</br>
-|-----------|-------------|
-<br>| ESP32 Dev Board | Main microcontroller |</br>
-| Waveshare Sound Sensor | Audio input (analog) |
-<br>| Jumper wires | For connections |</br>
-| USB Cable | For programming ESP32 |
+<br>``| Component | Description |``</br>
+``|-----------|-------------|``
+<br>``| ESP32 Dev Board | Main microcontroller |``</br>
+``| Waveshare Sound Sensor | Audio input (analog) |``
+<br>``| Jumper wires | For connections |``</br>
+``| USB Cable | For programming ESP32 |``
 
 ## 🔌 Wiring Diagram
 
@@ -36,13 +36,13 @@ Copy code
 
 1. Install Arduino IDE with ESP32 support.
 2. Install required libraries:
-   - ESPAsyncWebServer
-   - AsyncTCP
+   ``- ESPAsyncWebServer``
+   ``- AsyncTCP``
 3. Copy the Arduino sketch into IDE.
 4. Set your WiFi SSID and password in the code:
 ## cpp
-<br>const char* WIFI_SSID = "Your_SSID";</br>
-const char* WIFI_PASS = "Your_PASSWORD";``
+<br>``const char* WIFI_SSID = "Your_SSID";``</br>
+``const char* WIFI_PASS = "Your_PASSWORD";``
 ## Upload the code to ESP32.
 
 Open Serial Monitor to see the ESP32 IP address.
