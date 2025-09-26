@@ -26,7 +26,7 @@ Waveshare Sound Sensor ESP32
 <br>``VCC 3.3V``</br>
 ``GND GND``
 <br>``A0 (Analog Out) GPIO 33``</br>
-
+<img src="https://raw.githubusercontent.com/esp32king/ESP32-WiFi-Mic-Live-Stream/refs/heads/main/ESP32-Diagram.jpg"></img>
 vbnet
 Copy code
 
