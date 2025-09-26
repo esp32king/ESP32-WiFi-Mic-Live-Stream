@@ -23,9 +23,9 @@ Stream audio from a Waveshare Sound Sensor connected to an ESP32 over WiFi using
 
 Waveshare Sound Sensor ESP32
 
-``VCC 3.3V
-GND GND
-A0 (Analog Out) GPIO 33``
+<br>VCC 3.3V</br>
+<br>GND GND</br>
+A0 (Analog Out) GPIO 33
 
 vbnet
 Copy code
