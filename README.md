@@ -76,9 +76,9 @@ Delay and buffer size can be adjusted in scriptNode (browser) or READ_SAMPLES (E
 sql
 ## Copy code
 <br>``+----------------------------------+``</br>
-``| ESP32 Waveshare Sound Stream       |``
+``| ESP32 Waveshare Sound Stream     |``
 <br>``+----------------------------------+``</br>
-``| Status: Connecting...              |``
+``| Status: Connecting...            |``
 <br>``| [Start] [Stop]                   |``</br>
 ``+----------------------------------+``
 ## 🔗 References
