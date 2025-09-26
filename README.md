@@ -24,8 +24,8 @@ Stream audio from a Waveshare Sound Sensor connected to an ESP32 over WiFi using
 Waveshare Sound Sensor ESP32
 
 <br>VCC 3.3V</br>
-<br>GND GND</br>
-A0 (Analog Out) GPIO 33
+GND GND
+<br>A0 (Analog Out) GPIO 33</br>
 
 vbnet
 Copy code
@@ -40,9 +40,8 @@ Copy code
    - AsyncTCP
 3. Copy the Arduino sketch into IDE.
 4. Set your WiFi SSID and password in the code:
-
-``cpp
-const char* WIFI_SSID = "Your_SSID";
+## cpp
+<br>const char* WIFI_SSID = "Your_SSID";</br>
 const char* WIFI_PASS = "Your_PASSWORD";``
 ## Upload the code to ESP32.
 
