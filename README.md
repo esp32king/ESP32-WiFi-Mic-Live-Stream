@@ -12,20 +12,20 @@ Stream audio from a Waveshare Sound Sensor connected to an ESP32 over WiFi using
 
 ## 🛠️ Components Required
 
-| Component | Description |
+``| Component | Description |
 |-----------|-------------|
 | ESP32 Dev Board | Main microcontroller |
 | Waveshare Sound Sensor | Audio input (analog) |
 | Jumper wires | For connections |
-| USB Cable | For programming ESP32 |
+| USB Cable | For programming ESP32 |``
 
 ## 🔌 Wiring Diagram
 
 Waveshare Sound Sensor ESP32
 
-VCC 3.3V
+``VCC 3.3V
 GND GND
-A0 (Analog Out) GPIO 33
+A0 (Analog Out) GPIO 33``
 
 vbnet
 Copy code
@@ -43,21 +43,21 @@ Copy code
 
 ``cpp
 const char* WIFI_SSID = "Your_SSID";
-const char* WIFI_PASS = "Your_PASSWORD";
-Upload the code to ESP32.
+const char* WIFI_PASS = "Your_PASSWORD";``
+## Upload the code to ESP32.
 
 Open Serial Monitor to see the ESP32 IP address.
 
 Open browser and navigate to http://<ESP32_IP>/
 
-🌐 How to Use
+## 🌐 How to Use
 Click Start to begin audio streaming.
 
 Click Stop to end streaming.
 
 Browser will play audio in real-time.
 
-⚙️ How It Works
+## ⚙️ How It Works
 ESP32 reads analog audio signal from Waveshare sensor.
 
 Converts raw signal (0–4095) to 16-bit PCM audio.
@@ -66,26 +66,26 @@ Sends audio chunks via WebSocket to connected browser clients.
 
 Browser receives PCM data and plays using Web Audio API.
 
-# 📝 Notes
+## 📝 Notes
 Only works on local network (WiFi).
 
 Sampling rate: 16 kHz, mono audio.
 
 Delay and buffer size can be adjusted in scriptNode (browser) or READ_SAMPLES (ESP32).
 
-📸 Example Screenshot
+## 📸 Example Screenshot
 sql
 Copy code
-+---------------------------+
+``+---------------------------+
 | ESP32 Waveshare Sound Stream |
 +---------------------------+
 | Status: Connecting...      |
 | [Start] [Stop]            |
-+---------------------------+
-🔗 References
++---------------------------+``
+## 🔗 References
 Waveshare Sound Sensor
 
 ESPAsyncWebServer GitHub
 
-😎 Author
+## 😎 Author
 Krishna Rajput UP61
