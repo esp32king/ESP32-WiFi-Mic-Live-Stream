@@ -1,6 +1,6 @@
 # 🎤 ESP32 Waveshare Sound Sensor Audio Streaming
 
-Stream audio from a<h3> Waveshare Sound Sensor</h3> connected to an ESP32 over WiFi using WebSockets. View and play audio directly in a web browser!
+Stream audio from a **Waveshare Sound Sensor** connected to an ESP32 over WiFi using WebSockets. View and play audio directly in a web browser!
 
 ## ⚡ Features
 
