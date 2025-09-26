@@ -79,7 +79,7 @@ sql
 ``| ESP32 Waveshare Sound Stream |``
 <br>``+----------------------------------+``</br>
 ``| Status: Connecting...        |``
-<br>````| [Start] [Stop]            |``</br>
+<br>``| [Start] [Stop]            |``</br>
 +------------------------------------+``
 ## 🔗 References
 Waveshare Sound Sensor
